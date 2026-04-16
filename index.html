@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Unlock the Essence | Kada osećaš da nešto nije kako treba</title>
+  <meta
+    name="description"
+    content="Kratki tekstovi za trenutke kada ti nešto nije jasno, kada se nešto ponavlja ili kada ne znaš zašto se osećaš tako kako se osećaš."
+  />
+  <meta
+    name="keywords"
+    content="zašto me ignoriše, zašto sam stalno umoran, zašto se osećam prazno, zašto stojim u mestu, Unlock the Essence"
+  />
+  <meta name="author" content="Unlock the Essence" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#f5f1ea" />
+
+  <link rel="canonical" href="https://tvoj-domen.com/" />
+
+  <meta property="og:locale" content="sr_RS" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Unlock the Essence | Kada osećaš da nešto nije kako treba" />
+  <meta
+    property="og:description"
+    content="Nekad problem nije samo u onome što se dešava. Nekad je stvar u tome zašto te baš to toliko pomera."
+  />
+  <meta property="og:url" content="https://tvoj-domen.com/" />
+  <meta property="og:site_name" content="Unlock the Essence" />
+  <meta property="og:image" content="https://tvoj-domen.com/images/og-cover.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Unlock the Essence | Kada osećaš da nešto nije kako treba" />
+  <meta
+    name="twitter:description"
+    content="Kratki tekstovi za trenutke kada nešto ne možeš da objasniš, ali znaš da nije slučajno."
+  />
+  <meta name="twitter:image" content="https://tvoj-domen.com/images/og-cover.jpg" />
+
+  <style>
+    :root {
+      --bg: #f5f1ea;
+      --surface: #fffdfa;
+      --text: #1f1a17;
+      --muted: #6f665f;
+      --line: #ddd3ca;
+      --accent: #8e6f58;
+      --accent-hover: #735845;
+      --max-width: 1180px;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(31, 26, 23, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(100% - 32px, var(--max-width));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      backdrop-filter: blur(10px);
+      background: rgba(245, 241, 234, 0.88);
+      border-bottom: 1px solid rgba(221, 211, 202, 0.7);
+    }
+
+    .header-inner {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-name {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .brand-sub {
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      color: var(--muted);
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav a:hover,
+    .nav a:focus {
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 72px 0 32px;
+    }
+
+    .hero-wrap {
+      max-width: 760px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      background: rgba(255, 253, 250, 0.75);
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(2.2rem, 5vw, 4.4rem);
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-lead {
+      margin: 0;
+      max-width: 680px;
+      font-size: 1.16rem;
+      color: var(--muted);
+    }
+
+    .section {
+      padding: 28px 0 10px;
+    }
+
+    .section-heading {
+      margin: 0 0 18px;
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .section-intro {
+      margin: 0 0 28px;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover,
+    .card:focus-within {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 38px rgba(31, 26, 23, 0.08);
+      border-color: #ccbfb4;
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 1.35rem;
+      line-height: 1.2;
+    }
+
+    .card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .entry-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .entry-list a {
+      display: block;
+      padding: 12px 14px;
+      border: 1px solid transparent;
+      border-radius: 12px;
+      background: rgba(142, 111, 88, 0.04);
+      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+      font-size: 0.98rem;
+    }
+
+    .entry-list a:hover,
+    .entry-list a:focus {
+      background: rgba(142, 111, 88, 0.08);
+      border-color: var(--line);
+      transform: translateX(2px);
+    }
+
+    .soft-block {
+      margin-top: 42px;
+      padding: 28px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .soft-block h3 {
+      margin: 0 0 12px;
+      font-size: 1.3rem;
+      line-height: 1.2;
+    }
+
+    .soft-block p {
+      margin: 0;
+      max-width: 720px;
+      color: var(--muted);
+    }
+
+    .cta-row {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.95rem;
+      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .button:hover,
+    .button:focus {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--accent-hover);
+      border-color: var(--line);
+    }
+
+    .button.secondary:hover,
+    .button.secondary:focus {
+      background: rgba(142, 111, 88, 0.06);
+      border-color: #ccbfb4;
+    }
+
+    .site-footer {
+      padding: 42px 0 52px;
+    }
+
+    .footer-inner {
+      border-top: 1px solid var(--line);
+      padding-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 980px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 56px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .header-inner {
+        padding: 12px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav {
+        gap: 12px;
+      }
+
+      .hero-lead {
+        font-size: 1.05rem;
+      }
+
+      .card,
+      .soft-block {
+        padding: 20px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Unlock the Essence",
+      "url": "https://tvoj-domen.com/",
+      "inLanguage": "sr",
+      "description": "Ulazni sloj za ljude koji pokušavaju da razumeju šta im se dešava u odnosima, stanju i životnom pravcu."
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand" aria-label="Unlock the Essence početna">
+        <img src="logo.png" alt="Unlock the Essence logo" />
+        <span class="brand-text">
+          <span class="brand-name">Unlock the Essence</span>
+          <span class="brand-sub">ulazni sloj</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Glavna navigacija">
+        <a href="#odnosi">Odnosi</a>
+        <a href="#stanje">Stanje</a>
+        <a href="#pravac">Pravac</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-wrap">
+        <span class="eyebrow">nekad znaš da nešto nije kako treba</span>
+        <h1>Nije problem samo u onome što se dešava.</h1>
+        <p class="hero-lead">
+          Nekad te više ne drži sama situacija. Drži te to što ne znaš zašto te baš to toliko pomera.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="odnosi">
+      <div class="container">
+        <h2 class="section-heading">Odnosi</h2>
+        <p class="section-intro">
+          Kada ne možeš da pustiš, kada proveravaš telefon, kada pokušavaš da shvatiš gde se nešto promenilo.
+        </p>
+
+        <div class="card">
+          <ul class="entry-list">
+            <li><a href="/odnosi/zasto-me-ignorise">Zašto me ignoriše</a></li>
+            <li><a href="/odnosi/zasto-se-udaljio-od-mene">Zašto se udaljio od mene</a></li>
+            <li><a href="/odnosi/zasto-stalno-mislim-na-istu-osobu">Zašto stalno mislim na istu osobu</a></li>
+            <li><a href="/odnosi/zasto-se-vracam-bivsem">Zašto se vraćam bivšem</a></li>
+            <li><a href="/odnosi/zasto-uvek-biram-pogresne-ljude">Zašto uvek biram pogrešne ljude</a></li>
+            <li><a href="/odnosi/zasto-me-pogadja-kad-se-ne-javi">Zašto me pogađa kad se ne javi</a></li>
+            <li><a href="/odnosi/zasto-ne-mogu-da-pustim-ovu-osobu">Zašto ne mogu da pustim ovu osobu</a></li>
+            <li><a href="/odnosi/zasto-se-nadam-i-kad-znam-da-ne-treba">Zašto se nadam i kad znam da ne treba</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stanje">
+      <div class="container">
+        <h2 class="section-heading">Stanje</h2>
+        <p class="section-intro">
+          Kada si tu, ali kao da nisi. Kada nemaš pravi razlog, a opet osećaš da nešto nije na svom mestu.
+        </p>
+
+        <div class="card">
+          <ul class="entry-list">
+            <li><a href="/stanje/zasto-sam-stalno-umoran">Zašto sam stalno umoran</a></li>
+            <li><a href="/stanje/zasto-nemam-volje-ni-za-sta">Zašto nemam volje ni za šta</a></li>
+            <li><a href="/stanje/zasto-se-osecam-prazno">Zašto se osećam prazno</a></li>
+            <li><a href="/stanje/zasto-mi-se-place-bez-razloga">Zašto mi se plače bez razloga</a></li>
+            <li><a href="/stanje/zasto-imam-osecaj-da-nisam-svoj">Zašto imam osećaj da nisam svoj</a></li>
+            <li><a href="/stanje/zasto-mi-je-sve-previse">Zašto mi je sve previše</a></li>
+            <li><a href="/stanje/zasto-se-gubim-u-sebi">Zašto se gubim u sebi</a></li>
+            <li><a href="/stanje/zasto-sam-stalno-bezvoljan">Zašto sam stalno bezvoljan</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pravac">
+      <div class="container">
+        <h2 class="section-heading">Pravac</h2>
+        <p class="section-intro">
+          Kada imaš osećaj da stojiš, da se iste stvari vraćaju, ili da više ne znaš šta radiš sa sobom.
+        </p>
+
+        <div class="card">
+          <ul class="entry-list">
+            <li><a href="/pravac/zasto-stojim-u-mestu">Zašto stojim u mestu</a></li>
+            <li><a href="/pravac/zasto-mi-se-sve-ponavlja">Zašto mi se sve ponavlja</a></li>
+            <li><a href="/pravac/zasto-ne-znam-sta-da-radim-sa-sobom">Zašto ne znam šta da radim sa sobom</a></li>
+            <li><a href="/pravac/zasto-sam-izgubljen">Zašto sam izgubljen</a></li>
+            <li><a href="/pravac/zasto-nista-ne-ide-kako-sam-zamislio">Zašto ništa ne ide kako sam zamislio</a></li>
+            <li><a href="/pravac/zasto-ne-mogu-da-krenem">Zašto ne mogu da krenem</a></li>
+            <li><a href="/pravac/zasto-se-vrtim-u-istom">Zašto se vrtim u istom</a></li>
+            <li><a href="/pravac/zasto-imam-osecaj-da-kasnim-u-zivotu">Zašto imam osećaj da kasnim u životu</a></li>
+          </ul>
+        </div>
+
+        <div class="soft-block">
+          <h3>Ne moraš odmah da znaš šta se tačno dešava.</h3>
+          <p>
+            Nekad je dovoljno da kreneš od onoga što te najviše drži. Jedne misli. Jednog osećaja. Jedne situacije kojoj se stalno vraćaš.
+          </p>
+          <div class="cta-row">
+            <a class="button" href="/odnosi/zasto-me-ignorise">Kreni od nečega konkretnog</a>
+            <a class="button secondary" href="https://unlocktheessence.com/">Uđi u Unlock the Essence</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 Unlock the Essence. Sva prava zadržana.</div>
+      <div class="footer-links">
+        <a href="/">Početna</a>
+        <a href="/odnosi">Odnosi</a>
+        <a href="/stanje">Stanje</a>
+        <a href="/pravac">Pravac</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
