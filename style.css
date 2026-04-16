@@ -233,3 +233,26 @@ h1 {
     font-size: 1rem;
   }
 }
+.related {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.related p {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.related a {
+  display: inline-block;
+  margin-top: 4px;
+  color: #444;
+  text-decoration: underline;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.related a:hover {
+  color: #000;
+}
