@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://realno.unlocktheessence.com/</loc>
   </url>
-
-  <!-- ODNOSI -->
-  <url><loc>https://realno.unlocktheessence.com/zasto-me-ignorise.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-se-udaljio-od-mene.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-stalno-mislim-na-istu-osobu.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-se-vracam-bivsem.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-uvek-biram-pogresne-ljude.html</loc></url>
-
-  <!-- STANJE -->
-  <url><loc>https://realno.unlocktheessence.com/zasto-sam-stalno-umoran.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-nemam-volje-ni-za-sta.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-se-osecam-prazno.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-mi-se-place-bez-razloga.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-imam-osecaj-da-nisam-svoj.html</loc></url>
-
-  <!-- PRAVAC -->
-  <url><loc>https://realno.unlocktheessence.com/zasto-stojim-u-mestu.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-mi-se-sve-ponavlja.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-ne-znam-sta-da-radim-sa-sobom.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-sam-izgubljen.html</loc></url>
-  <url><loc>https://realno.unlocktheessence.com/zasto-nista-ne-ide-kako-sam-zamislio.html</loc></url>
-
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-me-ignorise.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-se-udaljio-od-mene.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-stalno-mislim-na-istu-osobu.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-se-vracam-bivsem.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-uvek-biram-pogresne-ljude.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-sam-stalno-umoran.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-nemam-volje-ni-za-sta.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-se-osecam-prazno.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-mi-se-place-bez-razloga.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-imam-osecaj-da-nisam-svoj.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-stojim-u-mestu.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-mi-se-sve-ponavlja.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-ne-znam-sta-da-radim-sa-sobom.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-sam-izgubljen.html</loc>
+  </url>
+  <url>
+    <loc>https://realno.unlocktheessence.com/zasto-nista-ne-ide-kako-sam-zamislio.html</loc>
+  </url>
 </urlset>
